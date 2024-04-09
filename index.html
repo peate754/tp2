@@ -1,0 +1,64 @@
+<!-- Cette Application sert a présenté les différentes options de sortie des différentes SDC de la ville de québec . Cette carte présente les différentes SDC de la ville de Québec ainsi qu'une présentation de ce que c'Est un SDC-->
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- donner pour info -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="src/leaflet.legend.css" />
+    <script type="text/javascript" src="src/leaflet.legend.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="L.CégepLimoilou_1cHor [Converti].png" alt="Logo du Cégep">
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À Propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="map"></div>
+
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson"></script>
+        <script src="script.js"> </script>
+        
+      
+    </nav>
+    <main class="grid-container">
+        <div id="map"></div>
+        <section id="accueil">
+            <h2>Accueil</h2>
+            <p>Bienvenue sur le site web du Cégep! ce site est créer par le sul unique ,magnifique et splendide Pierre Alexandre Tremblay</p>
+        </section>
+        <section id="a-propos">
+            <h2>Volcan actif en Beauce</h2>
+            <p>Il n'y pas de volcan actif en Beauce.</p>
+        </section>
+        <section id="services">
+            <h2>Nos Services</h2>
+            <p>Nous offrons une variété de services pour nos étudiants.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Copyright © 2024 Cégep. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
